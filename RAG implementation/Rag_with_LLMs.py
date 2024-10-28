@@ -92,7 +92,7 @@ def search_wikipedia(query):
     return context
 
 # 9. Combining retrieval and generation (RAG workflow)
-def rag_response(query, model_choice='llama'):
+def rag_response(query, model_choice='LLaMA'):
     start_time = time.time()  # Start timing
 
     context = search_wikipedia(query)
